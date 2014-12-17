@@ -2,13 +2,13 @@ package com.command.modelo;
 
 import com.command.impl.Command;
 
-public class ControleRemoto {
+public class RadioControle {
 
 	Command[] onCommands;
 	Command[] offCommands;
 	Command desCommand;
 
-	public ControleRemoto() {
+	public RadioControle() {
 		onCommands = new Command[1];
 		offCommands = new Command[1];
 		desCommand = null;
