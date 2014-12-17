@@ -5,7 +5,7 @@ import com.command.modelo.CarroRadioControle;
 import com.command.modelo.CarroRadioControleOffCommand;
 import com.command.modelo.CarroRadioControleOnCommand;
 
-public class TesteControleRemoto {
+public class ControlarCarroRadioControleRemoto {
 
 	public static void main(String[] args) {
 		RadioControle controle = new RadioControle();
